@@ -116,9 +116,25 @@ Northwind-SQL-Business-Portfolio
 
 ---
 
-# Screenshots
+# Project Screenshots
 
-Example project outputs are available in the **Screenshots** folder.
+
+
+## Monthly Sales Revenue
+
+![Monthly Sales Revenue](Screenshots/02_monthly_sales_revenue.png)
+
+## Running Total Revenue
+
+![Running Total Revenue](Screenshots/03_running_total_revenue.png)
+
+## Employee Performance
+
+![Employee Performance](Screenshots/06_employee_performance.png)
+
+## Top 3 Products by Category
+
+![Top 3 Products](Screenshots/09_top_3_products_by_category.png)
 
 ---
 
@@ -138,8 +154,7 @@ Dataset/README.md
 
 **Md Shariful Islam**
 
-Aspiring Data Analyst with hands-on experience in SQL, PostgreSQL, Power BI, and business analytics.
-
+Aspiring Data Analyst with hands-on experience in SQL, PostgreSQL, Power BI, GitHub, and business analytics. Passionate about transforming data into actionable business insights through analytical problem-solving and data visualization.
 ---
 
 # License
