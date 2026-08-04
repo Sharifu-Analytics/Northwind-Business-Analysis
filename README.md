@@ -8,26 +8,40 @@ The dashboard helps monitor revenue, orders, customers, product performance, emp
 
 ---
 
-# 📷 Dashboard Preview
+## 📷 Dashboard Preview
 
-![Dashboard](dashboard.png)
+<p align="center">
+  <img src="Screenshots/dashboard.png" width="900">
+</p>
 
+## 📈 Key Business Insights
 
-# 🛠 Tools Used
+- 💰 Total Revenue: $1.27M
+- 📦 Total Orders: 830
+- 👥 Total Customers: 89
+- 📦 Units Sold: 51K
+- 💵 Average Order Value: $1.53K
+
+## 🛠️ Tools Used
 
 - PostgreSQL 18
 - SQL
 - pgAdmin 4
 - Power BI Desktop
+- DAX (Data Analysis Expressions)
+- Git
+- GitHub
 - Northwind Sample Database
 
 ---
 
-# 📂 Dataset
+## 📂 Dataset
 
-Database: **Northwind**
+**Database:** Northwind
 
-The dashboard uses a custom SQL view named **sales_data**, created by joining multiple tables:
+The dashboard is built from a custom SQL view named `sales_data`, created by joining multiple Northwind tables to produce a business-ready dataset.
+
+Main tables include:
 
 - Orders
 - Order Details
@@ -35,6 +49,7 @@ The dashboard uses a custom SQL view named **sales_data**, created by joining mu
 - Employees
 - Products
 - Categories
+- Suppliers
 
 ---
 
@@ -59,27 +74,39 @@ The SQL view combines sales transactions into a single reporting table containin
 
 ### Total Revenue Calculation
 
-![Total Revenue SQL](sql-total-revenue.png)
+Calculates the total sales revenue used in the dashboard KPI.
+
+<p align="center">
+  <img src="Screenshots/sql-total-revenue.png" width="850">
+</p>
 
 ### Top Products
 
-![Top Products SQL](sql-top-products.png)
+Ranks products by total revenue to identify the highest-performing products.
+
+<p align="center">
+  <img src="Screenshots/sql-top-products.png" width="850">
+</p>
 
 ### Top Employees
 
-![Top Employees SQL](sql-top-employees.png)
+Ranks employees by total revenue and order volume to identify the strongest sales performers.
+
+<p align="center">
+  <img src="Screenshots/sql-top-employees.png" width="850">
+</p>
 
 
-# 📈 Dashboard KPIs
 
-The dashboard includes the following business KPIs:
+## 📈 Dashboard KPIs
+
+The dashboard summarizes overall business performance using the following key performance indicators (KPIs):
 
 - 💰 Total Revenue
 - 📦 Total Orders
 - 👥 Total Customers
 - 📦 Units Sold
 - 💵 Average Order Value
-
 ---
 
 # 📊 Dashboard Visualizations
@@ -111,37 +138,6 @@ The dashboard includes the following business KPIs:
 
 ---
 
-# 📌 Key Business Insights
-
-### Revenue
-
-- Total revenue exceeded **$1.27M** during the reporting period.
-
-### Customers
-
-- Sales were generated from **89 unique customers**.
-
-### Orders
-
-- The company processed **830 orders**.
-
-### Products
-
-- Over **51,000 units** were sold.
-
-### Geography
-
-- Germany, USA, Brazil, and France generated the highest revenue.
-
-### Product Categories
-
-- Beverage and Dairy Products contributed the largest share of revenue.
-
-### Employee Performance
-
-- Sales performance varies among employees, helping identify top performers.
-
----
 
 
 # 📁 Repository Structure
@@ -163,18 +159,18 @@ Northwind-Business-Analysis/
     └── sql-top-employees.png
 
 ---
-### Skills Demonstrated
+## 🚀 Skills Demonstrated
 
-• SQL Joins
-• PostgreSQL Views
-• Data Cleaning
-• Data Modeling
-• DAX Measures
-• KPI Design
-• Interactive Dashboards
-• Business Analysis
-• Data Visualization
-# Skills Demonstrated
+- SQL Joins
+- PostgreSQL Views
+- Data Cleaning
+- Data Modeling
+- DAX Measures
+- KPI Design
+- Interactive Dashboards
+- Business Analysis
+- Data Visualization
+- Git & GitHub Version Control
 
 ### SQL
 
@@ -229,5 +225,3 @@ Data Analyst | SQL | PostgreSQL | Power BI
 **LinkedIn:**  
 [Md Shariful Islam](https://linkedin.com/in/islam-freelancer)
 
-**Email:**  
-[islam.md@gmail.com](mailto:islam.md@gmail.com)
