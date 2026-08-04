@@ -11,7 +11,7 @@ The dashboard helps monitor revenue, orders, customers, product performance, emp
 ## 📷 Dashboard Preview
 
 <p align="center">
-  <img src="Screenshots/dashboard.png" width="900">
+  <img src="dashboard.png" width="900">
 </p>
 
 ## 📈 Key Business Insights
@@ -77,7 +77,7 @@ The SQL view combines sales transactions into a single reporting table containin
 Calculates the total sales revenue used in the dashboard KPI.
 
 <p align="center">
-  <img src="Screenshots/sql-total-revenue.png" width="850">
+  <img src="sql-total-revenue.png" width="850">
 </p>
 
 ### Top Products
@@ -85,7 +85,7 @@ Calculates the total sales revenue used in the dashboard KPI.
 Ranks products by total revenue to identify the highest-performing products.
 
 <p align="center">
-  <img src="Screenshots/sql-top-products.png" width="850">
+  <img src="sql-top-products.png" width="850">
 </p>
 
 ### Top Employees
@@ -93,9 +93,8 @@ Ranks products by total revenue to identify the highest-performing products.
 Ranks employees by total revenue and order volume to identify the strongest sales performers.
 
 <p align="center">
-  <img src="Screenshots/sql-top-employees.png" width="850">
+  <img src="sql-top-employees.png" width="850">
 </p>
-
 
 
 ## 📈 Dashboard KPIs
